@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tasty Resto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="https://i.pinimg.com/736x/f7/a1/b4/f7a1b4a7ba1984cd2c87fd0cecc385e0.jpg" alt="Restaurant Logo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#reservation" class="button">Reservation</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Welcome to [Tasty Resto]</h1>
+      <p>Delicious meals made fresh with love</p>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu">
+    <h1 style="font-size: 100px;"><strong>Tasty Resto</strong> </h1>
+
+    <h2>Today's special</h2>
+    <div class="menu-items">
+      <div class="menu-item">
+        <img src="https://i.pinimg.com/736x/9e/20/08/9e2008250707377e337cc5684fd508a2.jpg" alt="Dish 1">
+        <h3>Tandoori Chicken</h3>
+        <p>Description of the dish.</p>
+        <p class="price">Rs.450</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://i.pinimg.com/736x/47/60/5d/47605deefc03f0a95bfb1f0d5938823e.jpg" alt="Dish 2">
+        <h3>Special Meals</h3>
+        <p>Description of the dish.</p>
+        <p class="price">Rs.400</p>
+      </div>
+      <!-- Add more menu items here -->
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>We have been serving delicious food for over 20 years...</p>
+    <p>Our chefs use the finest ingredients to prepare fresh meals daily.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Location: 123 Food Street, City</p>
+    <p>Phone: (123) 456-7890</p>
+    <p>Email: contact@restaurant.com</p>
+  </section>
+
+  <!-- Reservation Section -->
+  <section id="reservation" class="reservation">
+    <h2>Make a Reservation</h2>
+    <form action="#" method="POST">
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="datetime-local" required>
+      <button type="submit" class="button">Reserve Table</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 [Restaurant Name]. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
